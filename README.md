@@ -1,2 +1,2 @@
 # Portfolio
-portfolio
+Contains all HTML/CSS code for portfolio website
