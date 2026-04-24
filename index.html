@@ -1,225 +1,230 @@
+```html
 <!DOCTYPE HTML>
 <html>
-<head>
+   <head>
+      <style>
+         div.container {
+         text-align: center;
+         }
+         ul.myUL {
+         display: inline-block;
+         text-align: left;
+         }
+      </style>
+      <title>Satyam Govila Portfolio</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <noscript>
+         <link rel="stylesheet" href="assets/css/noscript.css" />
+      </noscript>
+   </head>
+   <body class="is-preload">
 
-<style>
-div.container {
-    text-align: center;
-}
-ul.myUL {
-    display: inline-block;
-    text-align: left;
-}
+      <div id="wrapper">
 
-body {
-    line-height: 1.6;
-    font-size: 16px;
-    color: #2c2c2c;
-}
+      <!-- Header -->
+      <header id="header" class="alt">
+         <h1>Satyam Govila</h1>
+         <p>Data Enthusiast | Data Engineer | AI Data Engineering</p>
+      </header>
 
-h1, h2, h3, h4 {
-    letter-spacing: 0.5px;
-    font-weight: 600;
-}
+      <!-- Nav -->
+      <nav id="nav">
+         <ul>
+            <li><a href="#intro" class="active">Home</a></li>
+            <li><a href="#first">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#cta">Blog</a></li>
+            <li><a href="Resume_Satyam_Govila.pdf" target="_blank">Resume</a></li>
+            <li><a href="#cta1">Contact</a></li>
+         </ul>
+      </nav>
 
-p {
-    font-size: 16px;
-    line-height: 1.7;
-}
+      <div id="main">
 
-ul li {
-    margin-bottom: 10px;
-}
+         <!-- Introduction -->
+         <section id="intro" class="main">
+            <div class="spotlight">
+               <div class="content">
+                  <header class="major">
+                     <h3 style="font-weight: bold;">Hi, I'm Satyam!</h3>
+                  </header>
 
-strong {
-    color: #082f6d;
-}
-</style>
+                  <p>
+                  I'm a Senior Data Engineer at Zupee (Skill-Based Gaming Platform), with 6+ years of experience building scalable data platforms and real-time pipelines.
+                  I specialize in data modeling, distributed processing, and modern data lake architectures (Iceberg/Hudi), with a strong focus on performance and cost optimization at scale.
+                  </br>
+                  I design self-serve data platforms, real-time feature stores, and AI-ready data systems powering personalization and analytics.
+                  Currently exploring LLM-based data systems, RAG architectures, and scalable pipelines for AI-driven applications.
+                  </p>
 
-<title>Satyam Govila Portfolio</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="assets/css/main.css" />
+               </div>
+               <span class="image"><img src="images/pic.jpg" alt="" /></span>
+            </div>
+         </section>
 
-</head>
+         <!-- Work Experience -->
+         <section id="intro" class="main">
+            <div class="spotlight">
+               <div class="content">
 
-<body class="is-preload">
+                  <h3 style="font-weight: bold;">Work Experience</h3>
 
-<div id="wrapper">
+                  <h4 style="font-weight: bold;">Senior Data Engineer, Zupee (Skill-Based Gaming Platform)</h4>
+                  <h5 style="font-weight: bold;">Full-Time , August 2022 - Present</h5>
 
-<!-- Header -->
-<header id="header" class="alt">
-    <h1>Satyam Govila</h1>
-    <p>Data Engineer | Data Platforms | AI Data Engineering</p>
-</header>
+                  <ul>
 
-<!-- Nav -->
-<nav id="nav">
-<ul>
-<li><a href="#intro" class="active">Home</a></li>
-<li><a href="#work">Experience</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#cta">Blog</a></li>
-<li><a href="Resume_Satyam_Govila.pdf" target="_blank">Resume</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
+                     <li><strong>Data Migration Platform (MSK + Hudi):</strong> Solved S3 rate limits across MongoDB/MySQL and third-party sources using MSK + Hudi, enabling scalable incremental ingestion and reducing Athena scans by 30%. Designed a self-serve ingestion platform with governance and observability.</li>
 
-<div id="main">
+                     <li><strong>Data Infrastructure Optimization:</strong> Reduced S3 API costs by 47% ($7,000/month), improved query performance by 30% and reduced scan by 55%. Migrated pipelines to Iceberg + dbt architecture, reducing compute by 50% and Athena cost by 70%.</li>
 
-<!-- Intro -->
-<section id="intro" class="main">
-<div class="spotlight">
-<div class="content">
-<h3>Hi, I'm Satyam</h3>
+                     <li><strong>Self-Serve Data Platform:</strong> Built EMR-based platform enabling API-driven pipeline deployment with Airflow orchestration, governance controls, and PR-based workflows.</li>
 
-<p>
-Senior Data Engineer with 6+ years of experience building scalable data platforms and real-time pipelines on AWS. 
-I specialize in data modeling, distributed systems, and modern data lake architectures (Iceberg/Hudi), with a strong focus on performance and cost optimization.
-<br><br>
-I design self-serve data platforms, real-time feature stores, and AI-ready data systems powering personalization and analytics. Currently exploring LLM pipelines, RAG architectures, and data systems for AI-driven applications.
-</p>
+                     <li><strong>Realtime Feature Store:</strong> Built Flink + Kafka pipelines processing ~10M events/day and enabling low-latency (&lt;50ms) feature serving using Aerospike for ML personalization.</li>
 
-</div>
-<span class="image"><img src="images/pic.jpg" alt="" /></span>
-</div>
-</section>
+                     <li><strong>Game Data Logging:</strong> Designed scalable event logging architecture across multiple games, enabling analytics-ready data through cross-team collaboration.</li>
 
-<!-- Work Experience -->
-<section id="work" class="main">
-<div class="content">
+                  </ul>
 
-<h3>Work Experience</h3>
+                  <h4 style="font-weight: bold;">Data Engineer (SDE-2), Concirrus (Marine insurance based AI platform)</h4>
+                  <h5 style="font-weight: bold;">Full-Time , July 2019 - August 2022</h5>
 
-<h4>Senior Data Engineer — Zupee</h4>
-<h5>Aug 2022 - Present</h5>
+                  <ul>
+                     <li>Built and maintained batch and real-time ETL pipelines using Python, Spark, and AWS across multiple clients.</li>
+                     <li>Developed reusable APIs for internal data access and integrations.</li>
+                     <li>Optimized AWS pipelines for cost and performance improvements.</li>
+                  </ul>
 
-<ul>
+               </div>
+            </div>
+         </section>
 
-<li><strong>Data Platform (MSK + Hudi):</strong> Designed scalable ingestion system solving S3 rate limits and reducing Athena scans by 30%, enabling incremental ingestion across multiple sources.</li>
+         <!-- Projects -->
+         <section id="first" class="main special">
+            <header class="major">
+               <h2>Projects</h2>
+            </header>
 
-<li><strong>Data Infrastructure Optimization:</strong> Reduced S3 API cost by 47% (~$7K/month), improved query performance by 30%, and reduced scan by 55% through partitioning and storage optimization.</li>
+            <ul class="features">
 
-<li><strong>Iceberg + dbt Architecture:</strong> Migrated legacy pipelines to medallion architecture (LZ/EZ/AZ), reducing compute by 50% and Athena cost by 70%.</li>
+               <li>
+                  <h4 style="color:#082f6d;font-weight: bold;">Real Time Log Data Analytics | <em>Lambda Architecture, Spark, Kafka</em></h4>
+                  <p>Designed real-time data pipeline using Kafka and Spark for log processing and alerting, leveraging AWS services for scalable monitoring.</p>
+               </li>
 
-<li><strong>Self-Serve Data Platform:</strong> Built EMR-based platform enabling API-driven pipeline deployment with Airflow orchestration and governance controls.</li>
+               <li>
+                  <h4 style="color:#082f6d;font-weight: bold;">
+                  <a href="https://github.com/satyamgovila/ML-Based-Smartphone-based-Virtual-Gym-Assistant">ML Based Virtual Gym Assistant | <em>Python, AWS EC2, Pose Estimation</em></a>
+                  </h4>
+                  <p>Developed computer vision-based system for real-time posture detection and feedback using pose estimation.</p>
+               </li>
 
-<li><strong>Realtime Feature Store:</strong> Built Flink + Kafka pipelines processing ~10M events/day with <50ms latency feature serving using Aerospike.</li>
+               <li>
+                  <h4 style="color:#082f6d;font-weight: bold;">
+                  <a href="https://github.com/satyamgovila/Predicting-Bank-Defaulters-using-ML-techniques">Prediction of Defaulters in Banking Organisations</a>
+                  </h4>
+                  <p>Built machine learning model to predict borrower delinquency using historical and behavioral data.</p>
+               </li>
 
-<li><strong>Data Modeling & Event Systems:</strong> Designed scalable game event logging systems enabling analytics and experimentation.</li>
+               <li>
+                  <h4 style="color:#082f6d;font-weight: bold;">
+                  <a href="https://github.com/satyamgovila/Developing-Website-Monitoring-Sytem-Architecture-using-AWS">Website Monitoring System Architecture</a>
+                  </h4>
+                  <p>Designed AWS-based architecture for real-time monitoring, log streaming, and alerting system.</p>
+               </li>
 
-</ul>
+               <li>
+                  <h4 style="color:#082f6d;font-weight: bold;">
+                  <a href="https://github.com/satyamgovila/Real-Time-Log-Data-Analtyics-using-Lambda-Architecture-Spark-and-Kafka">Lambda Architecture Pipeline</a>
+                  </h4>
+                  <p>Implemented hybrid batch and streaming data pipeline using Kafka, Spark, and AWS.</p>
+               </li>
 
-<h4>Data Engineer — Concirrus</h4>
-<h5>Jul 2019 - Aug 2022</h5>
+               <li>
+                  <h4 style="color:#082f6d;font-weight: bold;">
+                  <a href="https://github.com/satyamgovila/MLOPs-Building-Auto-Regressor-Model-Time-Series-Analysis-Deploying-on-GCP">Time Series Forecasting (MLOps)</a>
+                  </h4>
+                  <p>Built and deployed time-series forecasting pipeline with reproducible ML workflows on cloud.</p>
+               </li>
 
-<ul>
-<li>Built batch and streaming ETL pipelines using Python, Spark, and AWS.</li>
-<li>Developed reusable APIs for internal data access and integrations.</li>
-<li>Optimized pipelines for cost and performance.</li>
-</ul>
+            </ul>
+         </section>
 
-</div>
-</section>
+         <!-- Skills -->
+         <section id="skills" class="main special">
+            <header class="major">
+               <h2>Technical Skills</h2>
+            </header>
 
-<!-- Projects -->
-<section id="projects" class="main special">
-<h2>Projects & Experiments</h2>
+            <div class="container">
+               <div style="text-align: left; max-width: 800px; margin: 0 auto;">
 
-<ul class="features">
+                  <p><strong>Languages:</strong> Python, SQL</p>
+                  <p><strong>Data Platforms:</strong> Spark, Flink, Kafka, dbt, Iceberg, Hudi, Trino, Athena</p>
+                  <p><strong>Cloud & Orchestration:</strong> AWS (S3, EMR, Glue, Lambda, Step Functions), Airflow</p>
+                  <p><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Aerospike</p>
+                  <p><strong>AI Data Engineering:</strong> LLM-ready data pipelines, vector data workflows, feature engineering, and systems for RAG-based and real-time AI applications</p>
 
-<li>
-<h4>Real-Time Log Analytics Platform</h4>
-<p>Built streaming architecture using Spark and Kafka to process real-time logs and trigger alerts using AWS services.</p>
-</li>
+               </div>
+            </div>
+         </section>
 
-<li>
-<h4>ML-Based Virtual Gym Assistant</h4>
-<p>Computer vision system for real-time posture detection and feedback using pose estimation techniques.</p>
-</li>
+         <!-- Blog -->
+         <section id="cta" class="main special">
+            <header class="major">
+            <div class="container">
+               <h2>Blog</h2>
+               <p>Please feel free to checkout my blogs on Data Engineering, System Design, and AI systems.<br /></p>
+               <ul class="myUL">
+                  <li>Mobile Security Application | System Design</li>
+                  <li>Digging Deep into Neural Networks</li>
+               </ul>
+            </div>
 
-<li>
-<h4>Time Series Forecasting (MLOps)</h4>
-<p>Built and deployed time-series forecasting pipeline with reproducible ML workflows on cloud.</p>
-</li>
+            <footer class="major">
+               <ul class="actions special">
+                  <li><a href="https://satyamgovila.medium.com" class="button primary">Check out my blogs!</a></li>
+               </ul>
+            </footer>
+         </section>
 
-<li>
-<h4>Website Monitoring System Architecture</h4>
-<p>Designed AWS-based architecture for real-time monitoring, log streaming, and alerting system.</p>
-</li>
+      </div>
 
-<li>
-<h4>Bank Default Prediction</h4>
-<p>Machine learning model to predict borrower delinquency using historical and behavioral data.</p>
-</li>
+      <!-- Footer -->
+      <footer id="footer">
+         <section id="cta1">
+            <h2>Get in Touch</h2>
+            <dl class="alt">
+               <dt>Address</dt>
+               <dd>New Delhi , India</dd>
+               <dt>Phone</dt>
+               <dd>(+91) 844-584-1444</dd>
+               <dt>Email</dt>
+               <dd><a href="mailto:govila.satyam@gmail.com">govila.satyam@gmail.com</a></dd>
+            </dl>
 
-<li>
-<h4>Lambda Architecture Pipeline</h4>
-<p>Implemented hybrid batch + streaming data pipeline using Kafka, Spark, and AWS.</p>
-</li>
+            <ul class="icons">
+               <li><a href="https://linkedin.com/in/satyam-govila" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+               <li><a href="https://github.com/satyamgovila" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+               <li><a href="https://satyamgovila.github.io/portfolio/" class="icon solid fa-globe alt"><span class="label">Portfolio</span></a></li>
+            </ul>
+         </section>
 
-</ul>
+         <p class="copyright">© 2026 Satyam Govila</p>
+      </footer>
 
-</section>
+      </div>
 
-<!-- Skills -->
-<section id="skills" class="main special">
-<h2>Technical Skills</h2>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
 
-<div class="container">
-<div style="text-align: left; max-width: 800px; margin: 0 auto;">
-
-<p><strong>Languages:</strong> Python, SQL</p>
-
-<p><strong>Data Platforms:</strong> Spark, Flink, Kafka, dbt, Iceberg, Hudi, Trino, Athena</p>
-
-<p><strong>Cloud & Orchestration:</strong> AWS (S3, EMR, Glue, Lambda, Step Functions), Airflow</p>
-
-<p><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Aerospike</p>
-
-<p><strong>AI Data Engineering:</strong> LLM-ready data pipelines, vector data workflows, and systems for RAG and real-time AI applications</p>
-
-</div>
-</div>
-</section>
-
-<!-- Blog -->
-<section id="cta" class="main special">
-<h2>Blog</h2>
-<p>Writing about data engineering, system design, and AI systems.</p>
-
-<ul class="myUL">
-<li>Mobile Security Application | System Design</li>
-<li>Deep Dive into Neural Networks</li>
-</ul>
-
-<ul class="actions special">
-<li><a href="https://satyamgovila.medium.com" class="button primary">Read Blogs</a></li>
-</ul>
-
-</section>
-
-</div>
-
-<!-- Footer -->
-<footer id="footer" id="contact">
-
-<h2>Get in Touch</h2>
-
-<p>New Delhi, India</p>
-<p>Email: govila.satyam@gmail.com</p>
-
-<ul class="icons">
-<li><a href="https://linkedin.com/in/satyam-govila">LinkedIn</a></li>
-<li><a href="https://github.com/satyamgovila">GitHub</a></li>
-</ul>
-
-<p>© 2026 Satyam Govila</p>
-
-</footer>
-
-</div>
-
-</body>
+   </body>
 </html>
+```
